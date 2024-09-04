@@ -1,9 +1,46 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
+  "search": {
+    "blogs": {
+      "total": 5,
+      "hits": [
+        {
+          "title": "Blog 1",
+          "description": "First blog",
+          "url": "https://github.com/anton-marchenko/jsons"
+        },
+        {
+          "title": "Blog 2",
+          "description": "2nd blog",
+          "url": "https://github.com/anton-marchenko/jsons"
+        },
+        {
+          "title": "Blog 1",
+          "description": "3rd blog",
+          "url": "https://github.com/anton-marchenko/jsons"
+        }
+      ]
+    },
+    "posts": {
+      "total": 3,
+      "hits": [
+        {
+          "author": "Aram",
+          "text": "First post",
+          "url": "https://github.com/anton-marchenko/jsons"
+        },
+        {
+          "author": "Egor",
+          "text": "2nd post",
+          "url": "https://github.com/anton-marchenko/jsons"
+        },
+        {
+          "author": "Anton",
+          "text": "3rd post",
+          "url": "https://github.com/anton-marchenko/jsons"
+        }
+      ]
+    }
+  },
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
