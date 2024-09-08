@@ -4,4 +4,4 @@
 
 ## Примеры
 
-Апишка для проекта поиска: https://my-json-server.typicode.com/anton-marchenko/jsons/search
+Апишка для [проекта](https://github.com/anton-marchenko/am.search-react) поиска: https://my-json-server.typicode.com/anton-marchenko/jsons/search
