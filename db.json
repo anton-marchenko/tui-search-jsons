@@ -107,7 +107,7 @@
       "rowId": 1,
       "explicit": {
         "rating": 4,
-        "author": { "id": "1x", "name": "Anton" }
+        "author": { "id": "id_1", "name": "Anton" }
       },
       "attributed": {
         "text": [
@@ -152,7 +152,7 @@
       "rowId": 2,
       "explicit": {
         "rating": 5,
-        "author": { "id": "2x", "name": "Egor" }
+        "author": { "id": "id_3", "name": "Aram" }
       },
       "attributed": {
         "text": [
