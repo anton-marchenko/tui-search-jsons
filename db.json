@@ -1,203 +1,94 @@
 {
-  "search": {
-    "blogs": {
-      "total": 5,
-      "hits": [
-        {
-          "id": 1,
-          "title": "Blog 1",
-          "description": "First blog",
-          "url": "https://github.com/anton-marchenko/jsons"
-        },
-        {
-          "id": 2,
-          "title": "Blog 2",
-          "description": "2nd blog",
-          "url": "https://github.com/anton-marchenko/jsons"
-        },
-        {
-          "id": 3,
-          "title": "Blog 1",
-          "description": "3rd blog",
-          "url": "https://github.com/anton-marchenko/jsons"
-        }
-      ]
-    },
-    "posts": {
-      "total": 3,
-      "hits": [
-        {
-          "id": 1,
-          "author": "Aram",
-          "text": "First post",
-          "url": "https://github.com/anton-marchenko/jsons"
-        },
-        {
-          "id": 2,
-          "author": "Egor",
-          "text": "2nd post",
-          "url": "https://github.com/anton-marchenko/jsons"
-        },
-        {
-          "id": 3,
-          "author": "Anton",
-          "text": "3rd post",
-          "url": "https://github.com/anton-marchenko/jsons"
-        }
-      ]
-    }
+  "main-search": {
+    "Posts": [
+      {
+        "title": "Visitors Book",
+        "subtitle": "by Anton Marchenko",
+        "href": "https://github.com/anton-marchenko/am.visitors-book?tab=readme-ov-file#visitors-book",
+        "icon": "@tui.file-text"
+      },
+      {
+        "title": "Monty Python (post)",
+        "href": "https://en.wikipedia.org/wiki/Monty_Python",
+        "icon": "@tui.file-text"
+      }
+    ],
+    "Articles": [
+      {
+        "title": "Calendar Template",
+        "subtitle": "by Anton Marchenko",
+        "href": "https://github.com/anton-marchenko/am.freebie-calendar-template?tab=readme-ov-file#freebie-calendar-template",
+        "icon": "@tui.file-text"
+      },
+      {
+        "title": "Monty Python (article)",
+        "href": "https://en.wikipedia.org/wiki/Monty_Python",
+        "icon": "@tui.file-text"
+      }
+    ]
   },
-  "agile-table__list-items": [
-    { "listItemId": 1, "item": "tag1", "listId": 1 },
-    { "listItemId": 2, "item": "tag2", "listId": 1 },
-    { "listItemId": 3, "item": "item1", "listId": 2 },
-    { "listItemId": 4, "item": "item2", "listId": 2 }
-  ],
-  "agile-table__users": [
-    { "id": "id_1", "name": "Anton" },
-    { "id": "id_2", "name": "Egor" },
-    { "id": "id_3", "name": "Aram" },
-    { "id": "id_4", "name": "Dimon" },
-    { "id": "id_5", "name": "Valera" }
-  ],
-  "agile-table__columns": [
+  "extra-search-sources": [
     {
-      "kind": "explicit",
-      "alias": "rating",
-      "name": "Rating",
-      "sortable": true
+      "sourceId": "users",
+      "name": "Users",
+      "priority": 2
     },
     {
-      "kind": "explicit",
-      "alias": "author",
-      "name": "Author",
-      "width": 100,
-      "sortable": true
+      "sourceId": "code",
+      "name": "Code",
+      "priority": 1
     },
     {
-      "kind": "attributed",
-      "cellType": "text",
-      "attributeId": 1,
-      "name": "Name",
-      "sortable": true
-    },
-    {
-      "kind": "attributed",
-      "cellType": "text",
-      "attributeId": 2,
-      "name": "Descr"
-    },
-    {
-      "kind": "attributed",
-      "cellType": "date",
-      "attributeId": 3,
-      "name": "Date"
-    },
-    {
-      "kind": "attributed",
-      "cellType": "multiList",
-      "attributeId": 4,
-      "listId": 1,
-      "name": "Tags",
-      "sortable": true
+      "sourceId": "links",
+      "name": "Links",
+      "priority": 1
     }
   ],
-  "agile-table__rows": [
+  "extra-search__users": [
     {
-      "rowId": 1,
-      "explicit": {
-        "rating": 4,
-        "author": { "id": "id_1", "name": "Anton" }
-      },
-      "attributed": {
-        "text": [
-          {
-            "id": 100,
-            "attributeId": 1,
-            "value": "joe",
-            "etag": "etagXXX"
-          },
-          {
-            "id": 101,
-            "attributeId": 2,
-            "value": "pass",
-            "etag": "etagXXX"
-          }
-        ],
-        "date": [
-          {
-            "id": 200,
-            "attributeId": 3,
-            "value": "2024-10-16T21:56:38",
-            "etag": "etagXXX"
-          }
-        ],
-        "multiList": [
-          {
-            "id": 200,
-            "attributeId": 4,
-            "listItemId": 1,
-            "etag": "etagXXX"
-          },
-          {
-            "id": 201,
-            "attributeId": 4,
-            "listItemId": 2,
-            "etag": "etagXXX"
-          }
-        ]
-      }
+      "title": "Anton Marchenko",
+      "subtitle": "Frontend developer",
+      "href": "https://github.com/anton-marchenko",
+      "icon": "@tui.user"
     },
     {
-      "rowId": 2,
-      "explicit": {
-        "rating": 5,
-        "author": { "id": "id_3", "name": "Aram" }
-      },
-      "attributed": {
-        "text": [
-          {
-            "id": 100,
-            "attributeId": 1,
-            "value": "joe2",
-            "etag": "etagXXX"
-          },
-          {
-            "id": 101,
-            "attributeId": 2,
-            "value": "satriani3",
-            "etag": "etagXXX"
-          }
-        ],
-        "date": [
-          {
-            "id": 200,
-            "attributeId": 3,
-            "value": "2024-10-10T00:00:00",
-            "etag": "etagXXX"
-          }
-        ],
-        "multiList": [
-          {
-            "id": 200,
-            "attributeId": 4,
-            "listItemId": 1,
-            "etag": "etagXXX"
-          }
-        ]
-      }
+      "title": "Anton Antonov",
+      "subtitle": "QA",
+      "href": "https://en.wikipedia.org/wiki/Quality_assurance",
+      "icon": "@tui.user"
     },
     {
-      "rowId": 3,
-      "explicit": {
-        "rating": null,
-        "author": null
-      },
-      "attributed": {
-        "text": [],
-        "date": [],
-        "multiList": []
-      }
+      "title": "Ivan Ivanov",
+      "subtitle": "SRE",
+      "href": "https://en.wikipedia.org/wiki/Site_reliability_engineering",
+      "icon": "@tui.user"
+    }
+  ],
+  "extra-search__links": [
+    {
+      "title": "Taiga UI",
+      "subtitle": "Super awesome library",
+      "href": "https://taiga-ui.dev",
+      "icon": "@tui.link"
+    },
+    {
+      "title": "Agile Table Demo",
+      "subtitle": "by Anton Marchenko",
+      "href": "https://anton-marchenko.github.io/am.agile-table/",
+      "icon": "@tui.link"
+    }
+  ],
+  "extra-search__code": [
+    {
+      "title": "Taiga UI Repository",
+      "href": "https://github.com/taiga-family/taiga-ui",
+      "icon": "@tui.github"
+    },
+    {
+      "title": "Agile Table Repository",
+      "subtitle": "by Anton Marchenko",
+      "href": "https://github.com/anton-marchenko/am.agile-table",
+      "icon": "@tui.github"
     }
   ]
 }
