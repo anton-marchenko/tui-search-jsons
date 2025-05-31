@@ -30,17 +30,17 @@
   "extra-search-sources": [
     {
       "sourceId": "users",
-      "name": "Users",
+      "sectionName": "Users",
       "priority": 2
     },
     {
       "sourceId": "code",
-      "name": "Code",
+      "sectionName": "Code",
       "priority": 1
     },
     {
       "sourceId": "links",
-      "name": "Links",
+      "sectionName": "Links",
       "priority": 1
     }
   ],
